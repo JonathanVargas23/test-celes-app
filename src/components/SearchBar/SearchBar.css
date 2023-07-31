@@ -1,0 +1,27 @@
+.SearchBar__container {
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #cecece;
+  border-radius: 8px;
+  margin: 0px;
+  padding: 4px;
+}
+
+.SearchBar__input {
+  border: none;
+  padding: 4px;
+}
+
+.SearchBar__input:focus, .SearchBar__input:active {
+  border: none !important;
+}
+
+.SearchBar__icon {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
